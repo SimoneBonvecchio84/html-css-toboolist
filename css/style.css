@@ -4,23 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* container */
 .container {
     width: 100%;
     margin: 0 auto;
 }
-
+/* header */
 header {
     height:70px;
-    background-color: lightgrey;
+    background-color: rgb(237 242 247);
 }
-
+/* class container-img */
 .container-img {
     width: 245px;
     height: 63px;
     margin: auto;
     
 }
+ /* class container main */
 
+.container-main {
+    
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    background-color:rgb(237 242 247) ;
+} 
+
+.container-input{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    
+    
+}
+
+input,
+button {
+    padding: 7px;
+    border-radius: 2px;
+    border: none;
+}
+input {
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
+
+button {
+    color: white;
+    background-color: rgb(20 170 245);
+   
+   
+}
 
 
