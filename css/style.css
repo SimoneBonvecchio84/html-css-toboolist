@@ -89,15 +89,18 @@ input {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     margin-top: 20px;
+    
 }
 
 ul {
     padding-top: 30px;
     margin-left: 50px;
     list-style-type: none;
+    
 }
 
 .main-list-ul {
+    
     width: 90%;
     border-radius: 4px;
     background-color: white;
