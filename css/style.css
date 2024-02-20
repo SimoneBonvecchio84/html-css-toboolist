@@ -49,7 +49,7 @@ header {
 
 
 }
-
+/* input and main button */
 input,
 .main-button {
     padding: 7px;
@@ -69,13 +69,13 @@ input {
 
 
 }
-
+/* section list */
 .section-list {
    margin-top: 4px;
     
 }
 
-
+/* main list */
 .main-list {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -96,7 +96,7 @@ ul  {
     line-height:40px ;
     margin-top: 10px;
 }
-
+/* check symbols */
 .check-symbol-green,
 .check-symbol-red,
 .list-text,
@@ -126,7 +126,7 @@ button{
     color: red;
 }
 
-
+/* list text */
 .list,
 .list-text {
      margin-left:10px;
@@ -151,7 +151,7 @@ button {
     text-decoration-color: black;
     
 }
-
+/* color button */
 .button-blue {
     background-color:rgb(20 170 245);
 }
