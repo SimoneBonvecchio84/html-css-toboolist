@@ -70,6 +70,7 @@ input {
 .main-button {
     color: white;
     background-color: rgb(20 170 245);
+    height: 31.6px;
 
 
 }
@@ -187,7 +188,6 @@ button {
 }
 
 .button-green,
-.main-button,
-#button-decoration {
-    text-decoration: none;
+.main-button {
+text-decoration: none;
 }
