@@ -7,7 +7,7 @@
 
 /* container */
 .container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -32,6 +32,8 @@ header {
     margin: auto;
     margin-top: 50px;
     width: 80%;
+    height: 900px;
+
 
 }
 
@@ -48,12 +50,14 @@ header {
 
 
 
+
 }
+
 /* input and main button */
 input,
 .main-button {
     padding: 7px;
-    border-radius: 2px;
+    border-radius: 4px;
     border: none;
 }
 
@@ -69,10 +73,14 @@ input {
 
 
 }
+
 /* section list */
 .section-list {
-   margin-top: 4px;
-    
+    margin-top: 4px;
+    height: 670px;
+    border-radius: 5px;
+
+
 }
 
 /* main list */
@@ -82,7 +90,7 @@ input {
     margin-top: 20px;
 }
 
-ul  {
+ul {
     padding-top: 30px;
     margin-left: 50px;
     list-style-type: none;
@@ -93,14 +101,15 @@ ul  {
     border-radius: 4px;
     background-color: white;
     height: 40px;
-    line-height:40px ;
+    line-height: 40px;
     margin-top: 10px;
 }
+
 /* check symbols */
 .check-symbol-green,
 .check-symbol-red,
 .list-text,
-button{
+button {
     vertical-align: middle;
 }
 
@@ -112,16 +121,16 @@ button{
     border-radius: 50%;
     padding: 2px;
     margin-left: 10px;
-    
-    
+
+
 }
 
-.check-symbol-green{
+.check-symbol-green {
     border: 1px solid rgb(127 220 204);
-    color:rgb(127 220 204) ;
+    color: rgb(127 220 204);
 }
 
-.check-symbol-red{
+.check-symbol-red {
     border: 1px solid red;
     color: red;
 }
@@ -129,44 +138,56 @@ button{
 /* list text */
 .list,
 .list-text {
-     margin-left:10px;
-     font-size: 15px;
-     
+    margin-left: 10px;
+    font-size: 15px;
+
 }
 
 button {
     border-radius: 20px;
     font-size: 10px;
-    padding: 5px; 
+    padding: 5px;
     border: none;
     color: white;
-    
-    
-       
+
+
+
 }
 
 .list-text,
 button {
-    text-decoration: line-through; 
+    text-decoration: line-through;
     text-decoration-color: black;
-    
+
 }
+
 /* color button */
 .button-blue {
-    background-color:rgb(20 170 245);
+    background-color: rgb(20 170 245);
 }
 
 .button-purple {
-    background-color:rgb(171 93 230) ;
+    background-color: rgb(171 93 230);
 }
 
-.button-orange{
-    background-color:rgb(255 155 0) ;
+.button-green {
+    background-color: rgb(44 198 171);
+}
+
+.button-orange {
+    background-color: rgb(255 155 0);
+}
+
+.button-violet {
+    background-color: rgb(236 74 157);
+}
+
+.button-greenlight {
+    background-color: rgb(163 209 22);
 }
 
 .button-green,
+.main-button,
 #button-decoration {
-   background-color: rgb(44 198 171);
-   text-decoration: none;
+    text-decoration: none;
 }
-
