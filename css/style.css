@@ -51,7 +51,7 @@ header {
 }
 
 input,
-button {
+.main-button {
     padding: 7px;
     border-radius: 2px;
     border: none;
@@ -63,7 +63,7 @@ input {
 
 }
 
-button {
+.main-button {
     color: white;
     background-color: rgb(20 170 245);
 
@@ -79,6 +79,7 @@ button {
 .main-list {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 ul  {
@@ -93,33 +94,79 @@ ul  {
     background-color: white;
     height: 40px;
     line-height:40px ;
+    margin-top: 10px;
 }
 
-
-
-.check-symbol {
-    font-size: 9px;
-    color: green;
-    border-radius: 50%;
-    padding: 2px;
-    margin-left: 10px;
-    border: 1px solid green;
+.check-symbol-green,
+.check-symbol-red,
+.list-text,
+button{
     vertical-align: middle;
 }
 
+.check-symbol-green,
+.check-symbol-red {
+    width: 10px;
+    height: 10px;
+    font-size: 9px;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 10px;
+    
+    
+}
+
+.check-symbol-green{
+    border: 1px solid rgb(127 220 204);
+    color:rgb(127 220 204) ;
+}
+
+.check-symbol-red{
+    border: 1px solid red;
+    color: red;
+}
+
+
+.list,
 .list-text {
      margin-left:10px;
      font-size: 15px;
+     
 }
 
-.list-button {
+button {
     border-radius: 20px;
     font-size: 10px;
+    padding: 5px; 
+    border: none;
+    color: white;
+    
+    
+       
 }
 
 .list-text,
-.list-button {
-    text-decoration: line-through;
-    color: black;
+button {
+    text-decoration: line-through; 
+    text-decoration-color: black;
+    
+}
+
+.button-blue {
+    background-color:rgb(20 170 245);
+}
+
+.button-purple {
+    background-color:rgb(171 93 230) ;
+}
+
+.button-orange{
+    background-color:rgb(255 155 0) ;
+}
+
+.button-green,
+#button-decoration {
+   background-color: rgb(44 198 171);
+   text-decoration: none;
 }
 
